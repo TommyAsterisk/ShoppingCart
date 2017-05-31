@@ -1,9 +1,10 @@
 /* This will be the Javascript for the Shopping Cart Assignment*/
 
 //This is the constructor function for the item objects
-function Item(name, price){
-  this.name = name;
-  this.price = price;
+class Item{
+  constructor(name, price){
+    this.name = name;
+    this.price = price;
 }
 
 //The code for creating the items will go here
